@@ -1,0 +1,16 @@
+EAN API : https://secure.mashery.com/login/devsecure.ean.com/
+Username : ucrhotel
+password : 180project
+
+online js, html, css editor 
+http://jsbin.com/?html,output
+
+
+examples : hotel.com / expedia.com 
+
+Ruby on Rails: 
+	www.railscasts.com
+	guides.rubyonrails.org/getting_started.html
+	
+Bootstrap:
+	www.getbootstrap.com

@@ -1,0 +1,2694 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 20:34:22 -0800
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.6) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (92.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 20:34:23 -0800
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.1.6) lib/active_record/migration.rb:389:in `check_pending!'
+  activerecord (4.1.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.6) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.4ms)
+  [1m[36m (1983.3ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (343.3ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to DeviseCreateUsers (20141022211939)
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.9ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255) DEFAULT '' NOT NULL, "encrypted_password" varchar(255) DEFAULT '' NOT NULL, "reset_password_token" varchar(255), "reset_password_sent_at" datetime, "remember_created_at" datetime, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" datetime, "last_sign_in_at" datetime, "current_sign_in_ip" varchar(255), "last_sign_in_ip" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.4ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36m (0.3ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[35mSQL (37.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141022211939"]]
+  [1m[36m (275.4ms)[0m  [1mcommit transaction[0m
+Migrating to CreateReservations (20141109013136)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "reservations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "hotel_id" integer, "arrival_date" date, "departure_date" date, "rate" decimal, "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.2ms)[0m  CREATE  INDEX "index_reservations_on_user_id" ON "reservations" ("user_id")
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141109013136"]]
+  [1m[35m (282.9ms)[0m  commit transaction
+Migrating to AddHotelNameToReservations (20141111210146)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  ALTER TABLE "reservations" ADD "hotel_name" varchar(255)
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141111210146"]]
+  [1m[35m (317.3ms)[0m  commit transaction
+Migrating to CreateReviews (20141112025323)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  CREATE TABLE "reviews" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "hotel_id" integer, "stars" integer, "body" text, "review_date" date, "user_id" integer, "created_at" datetime, "updated_at" datetime) 
+  [1m[36m (0.4ms)[0m  [1mCREATE  INDEX "index_reviews_on_user_id" ON "reviews" ("user_id")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141112025323"]]
+  [1m[36m (282.6ms)[0m  [1mcommit transaction[0m
+Migrating to CreatePaymentInfos (20141118044734)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "payment_infos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255), "last_name" varchar(255), "address1" varchar(255), "address2" varchar(255), "state" varchar(255), "country" varchar(255), "ccn" varchar(255), "cvs" varchar(255), "expiration_date" date, "user_id" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (0.2ms)[0m  CREATE  INDEX "index_payment_infos_on_user_id" ON "payment_infos" ("user_id")
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141118044734"]]
+  [1m[35m (327.3ms)[0m  commit transaction
+Migrating to AddCityToPaymentInfos (20141119053921)
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  ALTER TABLE "payment_infos" ADD "city" varchar(255)
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20141119053921"]]
+  [1m[35m (371.8ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_payment_infos_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_payment_infos_on_user_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_reservations_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_reservations_on_user_id' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_reviews_on_user_id' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_reviews_on_user_id' AND type='index'
+
+  [1m[36m (0.2ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_reset_password_token' AND type='index'
+[0m
+  [1m[35m (0.2ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 20:37:22 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered database/_searchform.html.erb (45.7ms)
+  Rendered welcome/index.html.erb within layouts/application (52.4ms)
+Completed 200 OK in 3873ms (Views: 3844.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:37:26 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2014-12-04 20:37:27 -0800
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.5ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (121.4ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (256.1ms)
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2014-12-04 20:37:28 -0800
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at 2014-12-04 20:37:28 -0800
+
+ActionController::RoutingError (No route matches [GET] "/images/favicon.ico"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.2ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendered /var/lib/gems/1.9.1/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (80.5ms)
+
+
+Started POST "/database/getList?method=post" for 127.0.0.1 at 2014-12-04 20:40:33 -0800
+Processing by DatabaseController#getList as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "name"=>"", "poi"=>"", "city"=>"riverside", "state"=>"ca", "arrival"=>{"year"=>"2014", "month"=>"12", "day"=>"5"}, "departure"=>{"year"=>"2014", "month"=>"12", "day"=>"7"}, "starRange"=>"0,5", "priceRange"=>"0,500", "commit"=>"Search", "method"=>"post"}
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 105499
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 247627[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 109004
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 449502[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 311205
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 399860[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 117793
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 118856[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 131068
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 196212[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 138557
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 355546[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 209124
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 461121[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 461190
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 309733[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 133593
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 270684[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 176603
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 116780[0m
+  Rendered database/getList.html.erb within layouts/application (210.2ms)
+Completed 200 OK in 1873ms (Views: 761.4ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:35 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/outlined-star-grey.png" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/star_rating.png" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2014-12-04 20:40:36 -0800
+
+
+Started POST "/database/getList?arrival%5Bday%5D=5&arrival%5Bmonth%5D=12&arrival%5Byear%5D=2014&city=riverside&class=btn+btn-primary&departure%5Bday%5D=7&departure%5Bmonth%5D=12&departure%5Byear%5D=2014&method=post&name=&poi=&priceRange=0%2C500&sort=QUALITY&starRange=0%2C5&state=ca" for 127.0.0.1 at 2014-12-04 20:40:37 -0800
+Processing by DatabaseController#getList as HTML
+  Parameters: {"authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "arrival"=>{"day"=>"5", "month"=>"12", "year"=>"2014"}, "city"=>"riverside", "class"=>"btn btn-primary", "departure"=>{"day"=>"7", "month"=>"12", "year"=>"2014"}, "method"=>"post", "name"=>"", "poi"=>"", "priceRange"=>"0,500", "sort"=>"QUALITY", "starRange"=>"0,5", "state"=>"ca"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 133316
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 113012[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 105499
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 127313[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 118856
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 399860[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 133593
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 311205[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 196212
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 355546[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 461190
+  [1m[36m (1.2ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 138557[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 117793
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 461121[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 131068
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 247627[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 109004
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 449502[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 209124
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 309733[0m
+  Rendered database/getList.html.erb within layouts/application (83.3ms)
+Completed 200 OK in 1333ms (Views: 572.1ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:38 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/star_rating.png" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started GET "/assets/outlined-star-grey.png" for 127.0.0.1 at 2014-12-04 20:40:39 -0800
+
+
+Started POST "/database/getList?arrival%5Bday%5D=5&arrival%5Bmonth%5D=12&arrival%5Byear%5D=2014&city=riverside&class=btn+btn-primary&departure%5Bday%5D=7&departure%5Bmonth%5D=12&departure%5Byear%5D=2014&method=post&name=&poi=&priceRange=0%2C500&sort=PRICE&starRange=0%2C5&state=ca" for 127.0.0.1 at 2014-12-04 20:40:40 -0800
+Processing by DatabaseController#getList as HTML
+  Parameters: {"authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "arrival"=>{"day"=>"5", "month"=>"12", "year"=>"2014"}, "city"=>"riverside", "class"=>"btn btn-primary", "departure"=>{"day"=>"7", "month"=>"12", "year"=>"2014"}, "method"=>"post", "name"=>"", "poi"=>"", "priceRange"=>"0,500", "sort"=>"PRICE", "starRange"=>"0,5", "state"=>"ca"}
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 174118
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 201622[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 122345
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 138557[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 449502
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 461190[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 461121
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 117793[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 209124
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 131068[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 109004
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 311205[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 247627
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 355546[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 196212
+  [1m[36m (1.1ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 133593[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 399860
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 118856[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 105499
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 309733[0m
+  Rendered database/getList.html.erb within layouts/application (97.0ms)
+Completed 200 OK in 1462ms (Views: 626.1ms | ActiveRecord: 8.5ms)
+
+
+Started POST "/database/getHotelInfo?arrivalDate%5Bday%5D=5&arrivalDate%5Bmonth%5D=12&arrivalDate%5Byear%5D=2014&city=Lake+Arrowhead&departureDate%5Bday%5D=7&departureDate%5Bmonth%5D=12&departureDate%5Byear%5D=2014&hotelId=133316&method=post&name=Lake+Arrowhead+Resort+and+Spa%2C+Autograph+Collection&price=269" for 127.0.0.1 at 2014-12-04 20:40:42 -0800
+Processing by DatabaseController#getHotelInfo as HTML
+  Parameters: {"authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "arrivalDate"=>{"day"=>"5", "month"=>"12", "year"=>"2014"}, "city"=>"Lake Arrowhead", "departureDate"=>{"day"=>"7", "month"=>"12", "year"=>"2014"}, "hotelId"=>"133316", "method"=>"post", "name"=>"Lake Arrowhead Resort and Spa, Autograph Collection", "price"=>"269"}
+  [1m[35mReview Load (0.4ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."hotel_id" = 133316
+  Rendered database/hotelInfo.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 729ms (Views: 570.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:42 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:42 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:42 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:42 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:42 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:42 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:42 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:42 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:42 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:42 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:42 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:40:43 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 20:46:18 -0800
+Processing by WelcomeController#index as HTML
+  Rendered database/_searchform.html.erb (8.9ms)
+  Rendered welcome/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 582ms (Views: 580.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2014-12-04 20:46:19 -0800
+
+
+Started POST "/database/getList?method=post" for 127.0.0.1 at 2014-12-04 20:46:25 -0800
+Processing by DatabaseController#getList as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "name"=>"", "poi"=>"", "city"=>"riverside", "state"=>"ca", "arrival"=>{"year"=>"2014", "month"=>"12", "day"=>"4"}, "departure"=>{"year"=>"2014", "month"=>"12", "day"=>"5"}, "starRange"=>"0,5", "priceRange"=>"0,500", "commit"=>"Search", "method"=>"post"}
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 311205[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 247627
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 105499[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 399860
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 118856[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 117793
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 138557[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 131068
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 196212[0m
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 461121
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 109004[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 355546
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 449502[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 209124
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 461190[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 346060
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 133593[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 309733
+  [1m[36m (0.7ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 270684[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 182934
+  Rendered database/getList.html.erb within layouts/application (75.2ms)
+Completed 200 OK in 1028ms (Views: 559.1ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:26 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:27 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:27 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:27 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:27 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:27 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:27 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:27 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:46:27 -0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2014-12-04 20:46:27 -0800
+
+
+Started GET "/assets/star_rating.png" for 127.0.0.1 at 2014-12-04 20:46:27 -0800
+
+
+Started GET "/assets/outlined-star-grey.png" for 127.0.0.1 at 2014-12-04 20:46:27 -0800
+
+
+Started POST "/database/getHotelInfo?arrivalDate%5Bday%5D=4&arrivalDate%5Bmonth%5D=12&arrivalDate%5Byear%5D=2014&city=Riverside&departureDate%5Bday%5D=5&departureDate%5Bmonth%5D=12&departureDate%5Byear%5D=2014&hotelId=311205&method=post&name=Thunderbird+Lodge+in+Riverside&price=70" for 127.0.0.1 at 2014-12-04 20:48:53 -0800
+Processing by DatabaseController#getHotelInfo as HTML
+  Parameters: {"authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "arrivalDate"=>{"day"=>"4", "month"=>"12", "year"=>"2014"}, "city"=>"Riverside", "departureDate"=>{"day"=>"5", "month"=>"12", "year"=>"2014"}, "hotelId"=>"311205", "method"=>"post", "name"=>"Thunderbird Lodge in Riverside", "price"=>"70"}
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews"  WHERE "reviews"."hotel_id" = 311205[0m
+  Rendered database/hotelInfo.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 689ms (Views: 499.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:53 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:53 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:53 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:53 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:53 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:53 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:53 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:53 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:53 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:53 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:53 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2014-12-04 20:48:54 -0800
+
+
+Started POST "/reservations/index?arrivalDate%5Bday%5D=4&arrivalDate%5Bmonth%5D=12&arrivalDate%5Byear%5D=2014&city=Riverside&departureDate%5Bday%5D=5&departureDate%5Bmonth%5D=12&departureDate%5Byear%5D=2014&hotelId=311205&method=post&name=Thunderbird+Lodge+in+Riverside&price=115" for 127.0.0.1 at 2014-12-04 20:48:55 -0800
+Processing by ReservationsController#index as HTML
+  Parameters: {"authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "arrivalDate"=>{"day"=>"4", "month"=>"12", "year"=>"2014"}, "city"=>"Riverside", "departureDate"=>{"day"=>"5", "month"=>"12", "year"=>"2014"}, "hotelId"=>"311205", "method"=>"post", "name"=>"Thunderbird Lodge in Riverside", "price"=>"115"}
+Completed 401 Unauthorized in 33ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-12-04 20:48:55 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered /var/lib/gems/1.9.1/gems/devise-3.4.0/app/views/devise/shared/_links.html.erb (2.7ms)
+  Rendered /var/lib/gems/1.9.1/gems/devise-3.4.0/app/views/devise/sessions/new.html.erb within layouts/application (122.9ms)
+Completed 200 OK in 688ms (Views: 634.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:56 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2014-12-04 20:48:57 -0800
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-12-04 20:49:01 -0800
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered /var/lib/gems/1.9.1/gems/devise-3.4.0/app/views/devise/shared/_links.html.erb (0.9ms)
+  Rendered /var/lib/gems/1.9.1/gems/devise-3.4.0/app/views/devise/registrations/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 621ms (Views: 618.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-12-04 20:49:07 -0800
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "user"=>{"email"=>"ssepa001@ucr.edu", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mUser Exists (0.5ms)[0m  [1mSELECT  1 AS one FROM "users"  WHERE "users"."email" = 'ssepa001@ucr.edu' LIMIT 1[0m
+Binary data inserted for `string` type on column `encrypted_password`
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2014-12-05 04:49:07.433702"], ["email", "ssepa001@ucr.edu"], ["encrypted_password", "$2a$10$DlvceCz8fbOM6VS2rtcxIeW5HT/vqIdLM8HZJhi7O3NB5YfXyRZ.O"], ["updated_at", "2014-12-05 04:49:07.433702"]]
+  [1m[36m (371.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+Binary data inserted for `string` type on column `current_sign_in_ip`
+Binary data inserted for `string` type on column `last_sign_in_ip`
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "current_sign_in_at" = ?, "current_sign_in_ip" = ?, "last_sign_in_at" = ?, "last_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = 1[0m  [["current_sign_in_at", "2014-12-05 04:49:07.816063"], ["current_sign_in_ip", "127.0.0.1"], ["last_sign_in_at", "2014-12-05 04:49:07.816063"], ["last_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", "2014-12-05 04:49:07.818112"]]
+  [1m[35m (280.0ms)[0m  commit transaction
+Redirected to http://0.0.0.0:3000/welcome/user_profile
+Completed 302 Found in 1126ms (ActiveRecord: 653.4ms)
+
+
+Started GET "/welcome/user_profile" for 127.0.0.1 at 2014-12-04 20:49:08 -0800
+Processing by WelcomeController#user_profile as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mReservation Load (0.4ms)[0m  SELECT "reservations".* FROM "reservations"  WHERE "reservations"."user_id" = ? AND (arrival_date <= '2014-12-04')  [["user_id", 1]]
+  [1m[36mReservation Load (0.3ms)[0m  [1mSELECT "reservations".* FROM "reservations"  WHERE "reservations"."user_id" = ? AND (arrival_date > '2014-12-04')[0m  [["user_id", 1]]
+  Rendered welcome/user_profile.html.erb within layouts/application (120.7ms)
+Completed 200 OK in 711ms (Views: 705.4ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:08 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:09 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 20:49:11 -0800
+Processing by WelcomeController#index as HTML
+  Rendered database/_searchform.html.erb (10.4ms)
+  Rendered welcome/index.html.erb within layouts/application (13.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 604ms (Views: 602.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/database/getList?method=post" for 127.0.0.1 at 2014-12-04 20:49:13 -0800
+Processing by DatabaseController#getList as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "name"=>"", "poi"=>"", "city"=>"", "state"=>"", "arrival"=>{"year"=>"2014", "month"=>"12", "day"=>"4"}, "departure"=>{"year"=>"2014", "month"=>"12", "day"=>"5"}, "starRange"=>"0,5", "priceRange"=>"0,500", "commit"=>"Search", "method"=>"post"}
+Redirected to http://0.0.0.0:3000/database/errorPage
+Completed 302 Found in 86ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/database/errorPage" for 127.0.0.1 at 2014-12-04 20:49:13 -0800
+Processing by DatabaseController#errorPage as HTML
+  Rendered database/errorPage.html.erb within layouts/application (1.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 610ms (Views: 609.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/assets/IDK_reaction_face.png" for 127.0.0.1 at 2014-12-04 20:49:14 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 20:49:16 -0800
+Processing by WelcomeController#index as HTML
+  Rendered database/_searchform.html.erb (9.3ms)
+  Rendered welcome/index.html.erb within layouts/application (11.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 595ms (Views: 593.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/database/getList?method=post" for 127.0.0.1 at 2014-12-04 20:49:20 -0800
+Processing by DatabaseController#getList as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "name"=>"", "poi"=>"", "city"=>"las vegas", "state"=>"", "arrival"=>{"year"=>"2014", "month"=>"12", "day"=>"4"}, "departure"=>{"year"=>"2014", "month"=>"12", "day"=>"5"}, "starRange"=>"0,5", "priceRange"=>"0,500", "commit"=>"Search", "method"=>"post"}
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 134556[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 152625
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 118583[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 118903
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 116531[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 135542
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 163443[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 129410
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 123792[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 117354
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 266151[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 123073
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 121569[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 122212
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 123169[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 122695
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 128868[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 152693
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 115838[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 119566
+  Rendered database/getList.html.erb within layouts/application (81.1ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 1065ms (Views: 641.4ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:21 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/star_rating.png" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started GET "/assets/outlined-star-grey.png" for 127.0.0.1 at 2014-12-04 20:49:22 -0800
+
+
+Started POST "/database/getHotelInfo?arrivalDate%5Bday%5D=4&arrivalDate%5Bmonth%5D=12&arrivalDate%5Byear%5D=2014&city=Las+Vegas&departureDate%5Bday%5D=5&departureDate%5Bmonth%5D=12&departureDate%5Byear%5D=2014&hotelId=134556&method=post&name=TI+-+Treasure+Island+Hotel+and+Casino&price=64.95" for 127.0.0.1 at 2014-12-04 20:49:23 -0800
+Processing by DatabaseController#getHotelInfo as HTML
+  Parameters: {"authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "arrivalDate"=>{"day"=>"4", "month"=>"12", "year"=>"2014"}, "city"=>"Las Vegas", "departureDate"=>{"day"=>"5", "month"=>"12", "year"=>"2014"}, "hotelId"=>"134556", "method"=>"post", "name"=>"TI - Treasure Island Hotel and Casino", "price"=>"64.95"}
+  [1m[35mReview Load (0.3ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."hotel_id" = 134556
+  Rendered database/hotelInfo.html.erb within layouts/application (4.7ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 651ms (Views: 497.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:24 -0800
+
+
+Started POST "/reservations/index?arrivalDate%5Bday%5D=4&arrivalDate%5Bmonth%5D=12&arrivalDate%5Byear%5D=2014&city=Las+Vegas&departureDate%5Bday%5D=5&departureDate%5Bmonth%5D=12&departureDate%5Byear%5D=2014&hotelId=134556&method=post&name=TI+-+Treasure+Island+Hotel+and+Casino&price=339.9576" for 127.0.0.1 at 2014-12-04 20:49:28 -0800
+Processing by ReservationsController#index as HTML
+  Parameters: {"authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "arrivalDate"=>{"day"=>"4", "month"=>"12", "year"=>"2014"}, "city"=>"Las Vegas", "departureDate"=>{"day"=>"5", "month"=>"12", "year"=>"2014"}, "hotelId"=>"134556", "method"=>"post", "name"=>"TI - Treasure Island Hotel and Casino", "price"=>"339.9576"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://0.0.0.0:3000/reservations/payment
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations/payment" for 127.0.0.1 at 2014-12-04 20:49:28 -0800
+Processing by ReservationsController#payment as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered reservations/_creditcard.html.erb (3.9ms)
+  [1m[35mPaymentInfo Load (0.4ms)[0m  SELECT  "payment_infos".* FROM "payment_infos"  WHERE "payment_infos"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  Rendered reservations/payment.html.erb within layouts/application (72.7ms)
+Completed 200 OK in 576ms (Views: 572.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:49:29 -0800
+
+
+Started GET "/welcome/user_profile" for 127.0.0.1 at 2014-12-04 20:52:36 -0800
+Processing by WelcomeController#user_profile as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mReservation Load (0.2ms)[0m  SELECT "reservations".* FROM "reservations"  WHERE "reservations"."user_id" = ? AND (arrival_date <= '2014-12-04')  [["user_id", 1]]
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT "reservations".* FROM "reservations"  WHERE "reservations"."user_id" = ? AND (arrival_date > '2014-12-04')[0m  [["user_id", 1]]
+  Rendered welcome/user_profile.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 607ms (Views: 604.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/welcome/payment_info" for 127.0.0.1 at 2014-12-04 20:52:40 -0800
+Processing by WelcomeController#payment_info as HTML
+  Parameters: {"authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E="}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mPaymentInfo Load (0.2ms)[0m  [1mSELECT  "payment_infos".* FROM "payment_infos"  WHERE "payment_infos"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  Rendered reservations/_creditcard.html.erb (1.1ms)
+  Rendered welcome/payment_info.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 547ms (Views: 545.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2014-12-04 20:52:41 -0800
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 20:54:04 -0800
+Processing by WelcomeController#index as HTML
+  Rendered database/_searchform.html.erb (5.8ms)
+  Rendered welcome/index.html.erb within layouts/application (7.2ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 484ms (Views: 482.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/database/getList?method=post" for 127.0.0.1 at 2014-12-04 20:54:09 -0800
+Processing by DatabaseController#getList as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "name"=>"", "poi"=>"", "city"=>"las vegas", "state"=>"", "arrival"=>{"year"=>"2014", "month"=>"12", "day"=>"4"}, "departure"=>{"year"=>"2014", "month"=>"12", "day"=>"5"}, "starRange"=>"0,5", "priceRange"=>"0,500", "commit"=>"Search", "method"=>"post"}
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 134556[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 152625
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 118583[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 118903
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 116531[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 135542
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 163443[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 129410
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 123792[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 117354
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 266151[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 123073
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 121569[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 122212
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 123169[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 122695
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 128868[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 152693
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 115838[0m
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "reviews"  WHERE "reviews"."hotel_id" = 119566
+  Rendered database/getList.html.erb within layouts/application (91.6ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 1152ms (Views: 760.4ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:10 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:10 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:10 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:10 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:10 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:10 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:10 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:10 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:10 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:10 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/star_rating.png" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started GET "/assets/outlined-star-grey.png" for 127.0.0.1 at 2014-12-04 20:54:11 -0800
+
+
+Started POST "/database/getHotelInfo?arrivalDate%5Bday%5D=4&arrivalDate%5Bmonth%5D=12&arrivalDate%5Byear%5D=2014&city=Las+Vegas&departureDate%5Bday%5D=5&departureDate%5Bmonth%5D=12&departureDate%5Byear%5D=2014&hotelId=134556&method=post&name=TI+-+Treasure+Island+Hotel+and+Casino&price=64.95" for 127.0.0.1 at 2014-12-04 20:54:12 -0800
+Processing by DatabaseController#getHotelInfo as HTML
+  Parameters: {"authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "arrivalDate"=>{"day"=>"4", "month"=>"12", "year"=>"2014"}, "city"=>"Las Vegas", "departureDate"=>{"day"=>"5", "month"=>"12", "year"=>"2014"}, "hotelId"=>"134556", "method"=>"post", "name"=>"TI - Treasure Island Hotel and Casino", "price"=>"64.95"}
+  [1m[35mReview Load (0.6ms)[0m  SELECT "reviews".* FROM "reviews"  WHERE "reviews"."hotel_id" = 134556
+  Rendered database/hotelInfo.html.erb within layouts/application (5.1ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 792ms (Views: 618.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:13 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:14 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:14 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:14 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:14 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:14 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:14 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:14 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:14 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:14 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:14 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:14 -0800
+
+
+Started POST "/reservations/index?arrivalDate%5Bday%5D=4&arrivalDate%5Bmonth%5D=12&arrivalDate%5Byear%5D=2014&city=Las+Vegas&departureDate%5Bday%5D=5&departureDate%5Bmonth%5D=12&departureDate%5Byear%5D=2014&hotelId=134556&method=post&name=TI+-+Treasure+Island+Hotel+and+Casino&price=339.9576" for 127.0.0.1 at 2014-12-04 20:54:15 -0800
+Processing by ReservationsController#index as HTML
+  Parameters: {"authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "arrivalDate"=>{"day"=>"4", "month"=>"12", "year"=>"2014"}, "city"=>"Las Vegas", "departureDate"=>{"day"=>"5", "month"=>"12", "year"=>"2014"}, "hotelId"=>"134556", "method"=>"post", "name"=>"TI - Treasure Island Hotel and Casino", "price"=>"339.9576"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://0.0.0.0:3000/reservations/payment
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations/payment" for 127.0.0.1 at 2014-12-04 20:54:15 -0800
+Processing by ReservationsController#payment as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered reservations/_creditcard.html.erb (0.8ms)
+  [1m[35mPaymentInfo Load (0.6ms)[0m  SELECT  "payment_infos".* FROM "payment_infos"  WHERE "payment_infos"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  Rendered reservations/payment.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 584ms (Views: 580.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:16 -0800
+
+
+Started POST "/reservations/validate_credit_card?method=post" for 127.0.0.1 at 2014-12-04 20:54:56 -0800
+Processing by ReservationsController#validate_credit_card as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "first_name"=>"sam", "last_name"=>"sepasi", "ccn"=>"424242424242424242", "cvs"=>"123", "expdate"=>"04/2015", "biladdname"=>"sam", "add1"=>"234 web", "add2"=>"", "city"=>"riverside", "state"=>"ca", "countries"=>"United States", "commit"=>"Confirm", "method"=>"post"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://0.0.0.0:3000/reservations/payment
+Completed 302 Found in 984ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/reservations/payment" for 127.0.0.1 at 2014-12-04 20:54:57 -0800
+Processing by ReservationsController#payment as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered reservations/_creditcard.html.erb (1.0ms)
+  [1m[36mPaymentInfo Load (0.3ms)[0m  [1mSELECT  "payment_infos".* FROM "payment_infos"  WHERE "payment_infos"."user_id" = ? LIMIT 1[0m  [["user_id", 1]]
+  Rendered reservations/payment.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 583ms (Views: 578.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:58 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:54:59 -0800
+
+
+Started POST "/reservations/validate_credit_card?method=post" for 127.0.0.1 at 2014-12-04 20:55:38 -0800
+Processing by ReservationsController#validate_credit_card as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uJl1TEHN0UNFUAmmO0X8vo3juc37yBigcRWarnrvZ2E=", "first_name"=>"", "last_name"=>"", "ccn"=>"4242424242424242", "cvs"=>"123", "expdate"=>"09/2015", "biladdname"=>"sam", "add1"=>"234 sdavj st", "add2"=>"", "city"=>"riverside", "state"=>"ca", "countries"=>"United States", "commit"=>"Confirm", "method"=>"post"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://0.0.0.0:3000/reservations/payment
+Completed 302 Found in 4ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/reservations/payment" for 127.0.0.1 at 2014-12-04 20:55:38 -0800
+Processing by ReservationsController#payment as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered reservations/_creditcard.html.erb (0.7ms)
+  [1m[35mPaymentInfo Load (0.3ms)[0m  SELECT  "payment_infos".* FROM "payment_infos"  WHERE "payment_infos"."user_id" = ? LIMIT 1  [["user_id", 1]]
+  Rendered reservations/payment.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 604ms (Views: 600.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/blog-post.css?body=1" for 127.0.0.1 at 2014-12-04 20:55:38 -0800
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/reservations.css?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/database.css?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/payment.css?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/reviews.css?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/bootstrap-slider.css?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/bootstrap-slider.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/database.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/payment.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/reservations.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/reviews.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/assets/banner.png" for 127.0.0.1 at 2014-12-04 20:55:39 -0800
+
+
+Started GET "/welcome/user_profile" for 127.0.0.1 at 2014-12-04 20:55:56 -0800
+Processing by WelcomeController#user_profile as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mReservation Load (0.2ms)[0m  SELECT "reservations".* FROM "reservations"  WHERE "reservations"."user_id" = ? AND (arrival_date <= '2014-12-04')  [["user_id", 1]]
+  [1m[36mReservation Load (0.1ms)[0m  [1mSELECT "reservations".* FROM "reservations"  WHERE "reservations"."user_id" = ? AND (arrival_date > '2014-12-04')[0m  [["user_id", 1]]
+  Rendered welcome/user_profile.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 511ms (Views: 507.5ms | ActiveRecord: 0.7ms)
+  [1m[36m (63.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (152.2ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20141022211939)
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (181.8ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying(255) DEFAULT '' NOT NULL, "encrypted_password" character varying(255) DEFAULT '' NOT NULL, "reset_password_token" character varying(255), "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" character varying(255), "last_sign_in_ip" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (85.2ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")
+  [1m[36m (118.9ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141022211939"]]
+  [1m[36m (63.8ms)[0m  [1mCOMMIT[0m
+Migrating to CreateReservations (20141109013136)
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36m (216.3ms)[0m  [1mCREATE TABLE "reservations" ("id" serial primary key, "hotel_id" integer, "arrival_date" date, "departure_date" date, "rate" decimal, "user_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (130.7ms)[0m  CREATE  INDEX  "index_reservations_on_user_id" ON "reservations"  ("user_id")
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20141109013136"]]
+  [1m[35m (39.6ms)[0m  COMMIT
+Migrating to AddHotelNameToReservations (20141111210146)
+  [1m[36m (0.8ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.9ms)[0m  ALTER TABLE "reservations" ADD COLUMN "hotel_name" character varying(255)
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20141111210146"]]
+  [1m[35m (57.5ms)[0m  COMMIT
+Migrating to CreateReviews (20141112025323)
+  [1m[36m (0.5ms)[0m  [1mBEGIN[0m
+  [1m[35m (163.3ms)[0m  CREATE TABLE "reviews" ("id" serial primary key, "hotel_id" integer, "stars" integer, "body" text, "review_date" date, "user_id" integer, "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (86.7ms)[0m  [1mCREATE  INDEX  "index_reviews_on_user_id" ON "reviews"  ("user_id")[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20141112025323"]]
+  [1m[36m (229.0ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePaymentInfos (20141118044734)
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36m (240.7ms)[0m  [1mCREATE TABLE "payment_infos" ("id" serial primary key, "first_name" character varying(255), "last_name" character varying(255), "address1" character varying(255), "address2" character varying(255), "state" character varying(255), "country" character varying(255), "ccn" character varying(255), "cvs" character varying(255), "expiration_date" date, "user_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35m (86.4ms)[0m  CREATE  INDEX  "index_payment_infos_on_user_id" ON "payment_infos"  ("user_id")
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20141118044734"]]
+  [1m[35m (51.1ms)[0m  COMMIT
+Migrating to AddCityToPaymentInfos (20141119053921)
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.6ms)[0m  ALTER TABLE "payment_infos" ADD COLUMN "city" character varying(255)
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ($1)[0m  [["version", "20141119053921"]]
+  [1m[35m (57.0ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 21:15:29 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered database/_searchform.html.erb (19.1ms)
+  Rendered welcome/index.html.erb within layouts/application (70.1ms)
+  [1m[35mUser Load (2.1ms)[0m  SELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1
+Completed 200 OK in 861ms (Views: 837.5ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-12-04 21:15:30 -0800
+Processing by WelcomeController#index as HTML
+  Rendered database/_searchform.html.erb (59.4ms)
+  Rendered welcome/index.html.erb within layouts/application (61.4ms)
+  [1m[36mUser Load (1.4ms)[0m  [1mSELECT  "users".* FROM "users"  WHERE "users"."id" = 1  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 200 OK in 704ms (Views: 700.7ms | ActiveRecord: 1.4ms)
