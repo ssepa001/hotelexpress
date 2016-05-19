@@ -1,4 +1,4 @@
-hotelexpress
+Hotel Reservation website 
 ============
 
-Hotel reservation site
+This is  a clone of hotel reservation websites, it is connected to one of the largest hotel booking APIs and is writte in Ruby on Rails.
